@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="ushmat1.css" />
+    <script type="text/javascript" src="slider.js"></script>
+
+    <title>E-learning for kids</title>
+  </head>
+
+  <body>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Shpjegim per ushtrimet😍</h1>
+      <p>
+        <strong> Tek loja e pare</strong> na shfaqen delet ne foto dhe do japim
+        numrine sakte te tyren. <br />
+        <strong> Tek loja e dyte </strong> do na shfaqen fototdhe do shkruajm
+        trupin ose figuren gjeometrike qe ndodhet ne foto. <br />
+        <strong> Tek loja e trete</strong> do te vendosim shenjen e duhur ne
+        krahasimin te numrave. <br />
+        <strong> Tek loja e katert </strong>do te percaktojme numrin e nqs eshte
+        tek apo cift nqs eshte tek apo cift
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <header class="header">
+      <div class="logo_container"><img src="img/logo.png" alt="logo" /></div>
+
+      <ul class="nav">
+        <li>
+          <a href="http://localhost/e-learning/index.html#hyrja">Hyrja</a>
+        </li>
+        <li>
+          <a href="http://localhost/e-learning/index.html#aboutus"
+            >Rreth nesh</a
+          >
+        </li>
+        <li>
+          <a href="http://localhost/e-learning/index.html#menu">Menu</a>
+        </li>
+
+        <li>
+          <a href="http://localhost/e-learning/index.html#kontakt">Kontakti</a>
+        </li>
+        <li><a href="login.php">Log out</a></li>
+      </ul>
+    </header>
+
+    <section class="ushmat">
+      <div class="titushm">
+        <h1>Ushtrime Matematikore</h1>
+      </div>
+      <div class="lmush"><img src="img/le5.png" /></div>
+      <div class="mainushm">
+        <div class="saktesia">
+          <p class="Saktesia">
+            🥇 Saktesia : <span class="vlrp" id="p"></span>%
+          </p>
+        </div>
+        <button class="reset" id="resets">Reset</button>
+
+        <button class="show-modal" id="btnmodal">Info</button>
+
+        <ul class="ulmat1">
+          <li>
+            <div class="liushm" id="liushma1">
+              <div class="tmu1" id="titulldele">
+                Jep numrin e sakte te deleve
+              </div>
+              <div class="tmfoto1" id="tmfotoid1">
+                <img src="img-matematike/dl1.png" id="fodele" />
+              </div>
+              <input type="text" class="inp1" id="inpdele" />
+              <button class="btnd" id="btndele">Provo</button>
+            </div>
+          </li>
+          <li>
+            <div class="liushm" id="liushma2">
+              <div class="tmu1" id="titullemrifg">
+                Gjej figuren/trupin gjeometrik
+              </div>
+              <div class="tmfoto2">
+                <img src="img-matematike/fg1.png" id="fotoemrifg" />
+              </div>
+              <input type="text" class="inp1" id="inpemrifg" />
+              <button class="btnd" id="btnemrifg">Provo</button>
+            </div>
+          </li>
+        </ul>
+        <ul class="ulmat2">
+          <li>
+            <div class="liushm" id="liushma3">
+              <div class="tmu1" id="titullshenja">Vendos shenjen e duhur</div>
+              <input type="text" class="inp1" id="nr1shenja" />
+              <input type="text" class="inp1" id="shenja" />
+              <input type="text" class="inp1" id="nr2shenja" />
+              <button class="btnd" id="btnshenja">Provo</button>
+            </div>
+          </li>
+          <li>
+            <div class="liushm" id="liushma4">
+              <div class="tmu1" id="ttc">Gjej eshte numer tek apo cift</div>
+              <input type="text" class="inp1" id="inpct" />
+              <div class="btnatcftk">
+                <button class="btncf">Cift</button>
+                <button class="btnte">Tek</button>
+              </div>
+              <button class="fillim">Fillim</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <script type="text/javascript" src="ushMat.js"></script>
+    </section>
+  </body>
+</html>

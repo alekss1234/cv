@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.gjeometria {
+  position: absolute;
+  margin-top: 1%;
+  width: 100%;
+  height: 150%;
+  background-image: linear-gradient(to top left, #1b1919 0%, #9645aa 100%);
+}
+.titullikgj {
+  text-transform: uppercase;
+  display: block;
+  color: rgb(255, 255, 255);
+  background-color: #3f2b86e8;
+  width: 100%;
+  height: 40px;
+  margin-top: -0.95%;
+  margin-bottom: 0%;
+  overflow: hidden;
+
+  display: block;
+}
+.titullikgj h1 {
+  font-family: cursive;
+  margin-left: 22%;
+}
+.lgj img {
+  max-width: 6%;
+  max-height: 6%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+
+.figura {
+  margin-top: 10%;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+  background-color: #db39d6e8;
+  width: 200%;
+  height: 100%;
+  border-radius: 6%;
+}
+
+.fotogj img {
+  max-width: 60%;
+  max-height: 60%;
+  padding-left: 15%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.invlera {
+  display: flex;
+}
+.invlera input {
+  width: 60px;
+  height: 40px;
+  border-radius: 30px;
+  border: 2px solid rgb(59, 10, 100);
+  padding-left: 3%;
+}
+.in2 {
+  margin-left: 12%;
+  margin-top: 3%;
+}
+.in1 {
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+.pershkrimi {
+  display: flex;
+  font-size: 11px;
+  color: white;
+  padding-left: 21%;
+}
+.pp1 {
+  margin-left: -6%;
+}
+.pp2 {
+  margin-left: 17%;
+}
+
+.btnsip {
+  background-color: #3f2b86e8;
+  color: whitesmoke;
+  border: 2px solid rgb(250, 250, 250);
+  margin-top: 5%;
+  border-radius: 25px;
+  width: 92px;
+  height: 32px;
+  margin-left: 30%;
+  transition: 0.6s;
+}
+
+.btnsip:hover {
+  border: 2px solid #3f2b86e8;
+  background-color: rgb(250, 250, 250);
+  color: #3f2b86e8;
+}
+
+.tit1,
+.tit2 {
+  background-color: #3f2b86e8;
+  color: white;
+  padding-left: 28%;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.kryesori {
+  margin-top: 3%;
+  margin-left: -5%;
+  position: absolute;
+  margin-left: -13%;
+}
+
+.kryesori ul {
+  list-style: none;
+  display: flex;
+}
+.kryesori ul li {
+  margin-left: 56%;
+}
+
+.ul1 {
+  margin-bottom: 7%;
+}
+
+.ul2 {
+  margin-top: 4%;
+}
+
+#tid1 p,
+#tid2 p {
+  margin-left: -14%;
+}
+#tik1 p,
+#tik2 p {
+  margin-left: -6%;
+}
+#tit1 p,
+#tit2 p {
+  margin-left: -14%;
+}
+#tir1 p,
+#tir2 p {
+  margin-left: -8%;
+}
+
+/* Stilizimi i headerit */
+.header {
+  width: 100%;
+  height: 20px;
+  display: inline-table;
+  background: rgba(250, 248, 248, 0.95);
+}
+header.sticky {
+  width: 100%;
+  height: 20px;
+  background: rgba(250, 248, 248, 0.95);
+  display: none;
+}
+header.sticky ul li a {
+  color: #111010;
+}
+
+/* Futja e logos dhe percaktimi i saj ne te majte */
+.logo_container img {
+  float: left;
+  display: block;
+  width: 100px;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+/* Stilizimi i navigation total */
+.nav {
+  float: right;
+  height: 100%;
+  margin-right: 50px;
+}
+
+/* Stilizimi i listave tek nav */
+
+.nav li {
+  height: 100%;
+  display: inline-table;
+  float: left;
+  padding: 0px 20px;
+  margin-top: 3.5%;
+}
+/* Stilizimi i elementeve te listes */
+.nav li a {
+  vertical-align: middle;
+  color: #111010;
+  font-family: "lato", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+/* venia e ngjyres elementeve te listes ne momentin qe vendos mausin siper */
+.nav li a:hover {
+  color: rgb(253, 113, 113);
+  text-decoration: underline;
+  text-underline-offset: 12px;
+
+  text-decoration-color: rgb(253, 113, 113);
+}
+
+/*
+
+Shfaqjen e informacionit
+
+Shfaqjen e informacionit
+Shfaqjen e informacionit
+Shfaqjen e informacionit
+
+
+*/
+
+#btnmodal {
+  width: 155px;
+  height: 55px;
+  margin-left: 100%;
+  background-color: #3f2b86e8;
+  color: whitesmoke;
+  border: 2px solid rgb(250, 250, 250);
+  margin-top: 5%;
+  border-radius: 25px;
+  margin-top: -3%;
+  transition: 0.6s;
+}
+
+#btnmodal:hover {
+  border: 2px solid #3f2b86e8;
+  background-color: rgb(250, 250, 250);
+  color: #3f2b86e8;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.modal h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.modal p {
+  font-size: 1.8rem;
+}
+
+/* -------------------------- */
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 6;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+/*    
+Per pjesen e saktesise ne %
+*/
+
+.saktesia {
+  margin-left: 60%;
+  margin-top: 5%;
+  font-size: 19px;
+  color: white;
+  margin-top: 2%;
+}
+
+#resets {
+  margin-left: 60%;
+  margin-top: 1%;
+
+  background-color: #3f2b86e8;
+  color: whitesmoke;
+  border: 2px solid rgb(250, 250, 250);
+
+  border-radius: 25px;
+  width: 92px;
+  height: 32px;
+
+  transition: 0.6s;
+}
+
+#resets:hover {
+  border: 2px solid #3f2b86e8;
+  background-color: rgb(250, 250, 250);
+  color: #3f2b86e8;
+}

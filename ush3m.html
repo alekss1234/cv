@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="ush3mstilimi.css" />
+    
+
+    <title>E-learning for kids</title>
+  </head>
+  <body>
+
+
+
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Shpjegim per ushtrimet😍</h1>
+      <p>
+        <strong> Tek loja e pare</strong> do te gjejme mesataren e numrave te dhene ku formula e mesatares
+        eshte mbledhim gjithe numrat dhe pjestojme per numrin perkates te tyren. <br />
+        <strong> Tek loja e dyte </strong> nurmat qe na shfaqen do i vendosim me radhe nga me i vogli te 
+         me i madhi. <br />
+        <strong> Tek loja e trete</strong> do te gjejme numrin qe shfaqet me shppesh here. <br />
+        <strong> Tek loja e katert </strong> do te gjejme mesoren duke i rradhitur numrat nga me i madhi te
+         me i vogli dhe zgjedhim numrin i cili ndodhet ne mes.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+
+
+
+
+
+    <header class="header">
+      <div class="logo_container"><img src="img/logo.png" alt="logo" /></div>
+
+      <ul class="nav">
+        <li>
+          <a href="http://localhost/e-learning/index.html#hyrja">Hyrja</a>
+        </li>
+        <li>
+          <a href="http://localhost/e-learning/index.html#aboutus"
+            >Rreth nesh</a
+          >
+        </li>
+        <li>
+          <a href="http://localhost/e-learning/index.html#menu">Menu</a>
+        </li>
+
+        <li>
+          <a href="http://localhost/e-learning/index.html#kontakt"
+            >Kontakti</a
+          >
+        </li>
+        <li><a href="login.php">Log out</a></li>
+      </ul>
+    </header>
+    
+    <section class="ushmat1">
+        <div class="titushm1">
+          <h1>Ushtrime Matematikore</h1>
+        </div>
+        <div class="lmush1"><img src="img/l6.png" /></div>
+        <div class="mainushm1">
+
+
+          <div class="saktesia">
+            <p class="Saktesia">
+              🥇 Saktesia : <span class="vlrp" id="p"></span>%
+            </p>
+          </div>
+          <button class="reset" id="resets">Reset</button>
+
+          <button class="show-modal" id="btnmodal">Info</button>
+
+          <ul class="ulmat11">
+            <li>
+              <div class="liushm1" id="liushma11">
+                <div class="tmu11" id="titullmes">
+                  Gjej mesataren e kater numrave
+                </div>
+
+                <div class="mesinputettotal">
+                <input type="text"  id="mesinp1">
+                <input type="text"  id="mesinp2">
+                <input type="text"  id="mesinp3">
+                <input type="text"  id="mesinp4">
+
+              </div>
+                
+                  <input type="text" class="mesbtninout" id="inpperdoruesi">
+                  
+             
+                <button id="btnmes">Provo</button>
+            </li>
+            <li>
+              <div class="liushm1" id="liushma21">
+                <div class="tmu11" id="titullrr">
+                  Vendos numrat ne rend rrites
+                </div>
+                <div class="mesinputettotal">
+                  <input type="text"  id="inpr1">
+                  <input type="text"  id="inpr2">
+                  <input type="text"  id="inpr3">
+                  <input type="text"  id="inpr4">
+  
+                </div>
+                <div class="mesinputettotal1">
+                  <input type="text"  id="inprf1">
+                  <input type="text"  id="inprf2">
+                  <input type="text"  id="inprf3">
+                  <input type="text"  id="inprf4">
+  
+                </div>
+                <button id="btnrr">Provo</button>
+            </li>
+          </ul>
+          <ul class="ulmat21">
+            <li>
+              <div class="liushm1" id="liushma31">
+                <div class="tmu11" id="titullmoda">
+                  Gjej moden e numrave te dhene</div>
+                  <div class="mesinputettotal3">
+                    <input type="text"  id="modainp1">
+                    <input type="text"  id="modainp2">
+                    <input type="text"  id="modainp3">
+                    <input type="text"  id="modainp4">
+                    <input type="text"  id="modainp5">
+    
+                  </div>
+                    
+                      <input type="text" class="mesbtninout" id="inpperdoruesi1">
+                      
+                 
+                    <button id="btnmoda">Provo</button>
+            </li>
+  
+            <li>
+              <div class="liushm1" id="liushma41">
+                <div class="tmu11" id="titullmesore">Gjej mesoren e numrave te dhene</div>
+                <div class="mesinputettotal3">
+                  <input type="text"  id="mesoreinp1">
+                  <input type="text"  id="mesoreinp2">
+                  <input type="text"  id="mesoreinp3">
+                  <input type="text"  id="mesoreinp4">
+                  <input type="text"  id="mesoreinp5">
+  
+                </div>
+                  
+                    <input type="text" class="mesbtninout" id="inpperdoruesi2">
+                    
+               
+                  <button id="btnmoesore">Provo</button>
+               
+            </li>
+          </ul>
+        </div>
+        <script type="text/javascript" src="ush3mjavscript.js"></script>
+      </section>
+  </body>
+  </html>

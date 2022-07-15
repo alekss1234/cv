@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="stinet.css" />
+
+    <title>E-learning for kids</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo_container"><img src="img/logo.png" alt="logo" /></div>
+
+      <ul class="nav">
+        <li>
+          <a href="http://localhost/e-learning/index.html#hyrja">Hyrja</a>
+        </li>
+        <li>
+          <a href="http://localhost/e-learning/index.html#aboutus"
+            >Rreth nesh</a
+          >
+        </li>
+        <li>
+          <a href="http://localhost/e-learning/index.html#menu">Menu</a>
+        </li>
+
+        <li>
+          <a href="http://localhost/e-learning/index.html#kontakt">Kontakti</a>
+        </li>
+        <li><a href="login.php">Log out</a></li>
+      </ul>
+    </header>
+
+    <section class="ushmat1">
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>Shpjegim per ushtrimin😍</h1>
+        <p>
+          <strong> Tek loja e pare</strong> do na shfaqet fotoja e semaforit me
+          driten perkatese dhe ne sipas drites do zgjedhim buttonin e duhurdhe
+          buttoni fillim i cili ben te mundur reset. <br />
+          <strong> Tek loja e dyte </strong> do na shfaqen fotot dhe do te
+          shkruaj emrin e stines duke shtyour buttonin provo. <br />
+          <strong> Tek loja e trete</strong> do shfaqen fotot dhe do gjeni
+          profesionin qe i perket fotoja. <br />
+          <strong> Tek loja e katert </strong> do te shkruani ngjyren qe shfaqet
+          ne foto.
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+      <div class="aleks">
+        <div class="titushm1">
+          <h1>Lojra te Pergjithshme</h1>
+        </div>
+        <div class="lmush1"><img src="img/le2.png" /></div>
+
+        <div class="mainushm1">
+          <div class="saktesia">
+            <p class="Saktesia">
+              🥇 Saktesia : <span class="vlrp" id="p"></span>%
+            </p>
+          </div>
+          <button class="reset" id="resets">Reset</button>
+
+          <button class="show-modal" id="btnmodal">Info</button>
+          <ul class="ulmat11">
+            <li>
+              <div class="liushm1" id="liushma11">
+                <div class="tmu11" id="titullsemafori">
+                  Cfare tregon semafori?
+                </div>
+                <div class="tmfoto2">
+                  <img src="img-matematike/fg1.png" id="fotosem" />
+                </div>
+                <button class="btnd" id="btnstina1">Ndal!</button>
+                <button class="btnd" id="btnstina2">Behu gati!</button>
+                <button class="btnd" id="btnstina3">Vazhdo!</button>
+                <button class="btnd" id="btnstina4">Fillim</button>
+              </div>
+            </li>
+            <li>
+              <div class="liushm1" id="liushma21">
+                <div class="tmu11" id="titullstina">Gjej stinen ne foto</div>
+                <div class="tmfoto2">
+                  <img src="img-matematike/fg1.png" id="fotostina" />
+                </div>
+                <input type="text" class="inp1" id="inpstina" />
+                <button class="btnd" id="btnstina">Provo</button>
+              </div>
+            </li>
+          </ul>
+          <ul class="ulmat21">
+            <li>
+              <div class="liushm1" id="liushma31">
+                <div class="tmu11" id="titullprofesioni">
+                  Gjej profesionin ne foto
+                </div>
+                <div class="tmfoto2">
+                  <img src="img-matematike/fg1.png" id="fotoprofesioni" />
+                </div>
+                <input type="text" class="inp1" id="inpprofesioni" />
+                <button class="btnd" id="btnprofesioni">Provo</button>
+              </div>
+            </li>
+
+            <li>
+              <div class="liushm1" id="liushma41">
+                <div class="tmu11" id="titullngjyra">Gjej ngjyrat ne foto</div>
+                <div class="tmfoto2">
+                  <img src="img-matematike/fg1.png" id="fotongjyra" />
+                </div>
+                <input type="text" class="inp1" id="inpngjyra" />
+                <button class="btnd" id="btnngjyra">Provo</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <script type="text/javascript" src="stinet.js"></script>
+      </div>
+    </section>
+  </body>
+</html>

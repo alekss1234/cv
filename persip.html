@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="persip.css" />
+
+    <title>E-learning for kids</title>
+  </head>
+  <body>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Shpjegim per ushtrimet😍</h1>
+      <p>
+        <strong> Tek loja e pare</strong> do te gjejme perimetrin dhe siperfaqen
+        e katrorit, P=a*4 dhe S=a*a. <br />
+        <strong> Tek loja e dyte </strong> do te gjejme perimetrin dhe
+        siperfaqen e drejtkendeshit, P=(a*2)+(b*2) dhe S=a*b. <br />
+        <strong> Tek loja e trete</strong> Do te gjejme perimetrin dhe
+        siperfaqen e trekendeshit barabrinjes, P=a*3 dhe S=(b*h)/2 . <br />
+        <strong> Tek loja e katert </strong> Do te gjejme perimetrin dhe
+        siperfaqen e rrethit , P=2*Pi*r dhe S=Pi*r*r ku Pi=3.14 .
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <header class="header">
+      <div class="logo_container"><img src="img/logo.png" alt="logo" /></div>
+
+      <ul class="nav">
+        <li>
+          <a href="http://localhost/e-learning/index.html#hyrja">Hyrja</a>
+        </li>
+        <li>
+          <a href="http://localhost/e-learning/index.html#aboutus"
+            >Rreth nesh</a
+          >
+        </li>
+        <li>
+          <a href="http://localhost/e-learning/index.html#menu">Menu</a>
+        </li>
+
+        <li>
+          <a href="http://localhost/e-learning/index.html#kontakt">Kontakti</a>
+        </li>
+        <li><a href="login.php">Log out</a></li>
+      </ul>
+    </header>
+    <section class="gjeometria">
+      <div class="titullikgj">
+        <h1>Perimetri dhe siperfaqja e figurave gjeometrike</h1>
+      </div>
+      <div class="lgj"><img src="img/le4.png" /></div>
+
+      <div class="kryesori">
+        <div class="saktesia">
+          <p class="Saktesia">
+            🥇 Saktesia : <span class="vlrp" id="p"></span>%
+          </p>
+        </div>
+        <button class="reset" id="resets">Reset</button>
+
+        <button class="show-modal" id="btnmodal">Info</button>
+        <ul class="ul1">
+          <li class="k1">
+            <div class="figura">
+              <div class="tit1" id="tik1">
+                <p>Gjej perimetrin e katrorit</p>
+              </div>
+              <div class="tit2" id="tik2">
+                <p>Gjej siperfaqen e katrorit</p>
+              </div>
+
+              <div class="vepgjeo">
+                <div class="fotogj">
+                  <img src="img-gjeometri/k1.PNG" id="fotok" />
+                </div>
+                <div class="pershkrimi">
+                  <p class="pp1">Jep perimetrin:</p>
+                  <p class="pp2">Jep siperfaqen:</p>
+                </div>
+
+                <div class="invlera">
+                  <input type="number" class="in1" id="inperk" />
+
+                  <input type="number" class="in2" id="insipk" />
+                </div>
+
+                <button class="btnsip" id="btnpsk">Provo</button>
+              </div>
+            </div>
+          </li>
+          <li class="d1">
+            <div class="figura">
+              <div class="tit1" id="tid1">
+                <p>Gjej perimetrin e drejtkendeshit</p>
+              </div>
+              <div class="tit2" id="tid2">
+                <p>Gjej siperfaqen e drejtkendeshit</p>
+              </div>
+
+              <div class="vepgjeo">
+                <div class="fotogj">
+                  <img src="img-gjeometri/d1.PNG" id="fotod" />
+                </div>
+                <div class="pershkrimi">
+                  <p class="pp1">Jep perimetrin:</p>
+                  <p class="pp2">Jep siperfaqen:</p>
+                </div>
+
+                <div class="invlera">
+                  <input type="number" class="in1" id="inperd" />
+
+                  <input type="number" class="in2" id="insipd" />
+                </div>
+
+                <button class="btnsip" id="btnpsd">Provo</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="ul2">
+          <li class="t1">
+            <div class="figura">
+              <div class="tit1" id="tit1">
+                <p>Gjej perimetrin e trekendeshit</p>
+              </div>
+              <div class="tit2" id="tit2">
+                <p>Gjej siperfaqen e trekendeshit</p>
+              </div>
+
+              <div class="vepgjeo">
+                <div class="fotogj">
+                  <img src="img-gjeometri/t1.PNG" id="fotot" />
+                </div>
+                <div class="pershkrimi">
+                  <p class="pp1">Jep perimetrin:</p>
+                  <p class="pp2">Jep siperfaqen:</p>
+                </div>
+
+                <div class="invlera">
+                  <input type="text" class="in1" id="inpert" />
+
+                  <input type="text " class="in2" id="insipt" />
+                </div>
+
+                <button class="btnsip" id="btnpst">Provo</button>
+              </div>
+            </div>
+          </li>
+          <li class="r1">
+            <div class="figura">
+              <div class="tit1" id="tir1"><p>Gjej perimetrin e rrethit</p></div>
+              <div class="tit2" id="tir2"><p>Gjej siperfaqen e rrethit</p></div>
+
+              <div class="vepgjeo">
+                <div class="fotogj">
+                  <img src="img-gjeometri/r1.PNG" id="fotor" />
+                </div>
+                <div class="pershkrimi">
+                  <p class="pp1">Jep perimetrin:</p>
+                  <p class="pp2">Jep siperfaqen:</p>
+                </div>
+
+                <div class="invlera">
+                  <input type="text" class="in1" id="inperr" />
+
+                  <input type="text " class="in2" id="insipr" />
+                </div>
+
+                <button class="btnsip" id="btnpsr">Provo</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <script type="text/javascript" src="slider.js"></script>
+      <script type="text/javascript" src="gjeometri.js"></script>
+    </section>
+  </body>
+</html>

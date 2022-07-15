@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="stilimi.css" />
+
+    <title>E-learning for kids</title>
+  </head>
+  <body></body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="AritmetikaStillimi.css" />
+    <script type="text/javascript" src="slider.js"></script>
+
+    <title>E-learning for kids</title>
+  </head>
+  <body>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Shpjegim per ushtrimet😍</h1>
+      <p>
+        <strong> Tek loja e pare</strong> do na shfaqen numrat dhe ne do japim
+        shumen e numrave te dhene. <br />
+        <strong> Tek loja e dyte </strong> do na shfaqen numrat dhe ne do japim
+        diferencen e numrave te dhene. <br />
+        <strong> Tek loja e trete</strong> do na shfaqen numrat dhe ne do japim
+        prodhimin e numrave te dhene. <br />
+        <strong> Tek loja e katert </strong> do na shfaqen numrat dhe ne do
+        japim hersin e numrave te dhene.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <section class="AritmetikaS">
+      <header class="header">
+        <div class="logo_container"><img src="img/logo.png" alt="logo" /></div>
+
+        <ul class="nav">
+          <li>
+            <a href="http://localhost/e-learning/index.html#hyrja">Hyrja</a>
+          </li>
+          <li>
+            <a href="http://localhost/e-learning/index.html#aboutus"
+              >Rreth nesh</a
+            >
+          </li>
+          <li>
+            <a href="http://localhost/e-learning/index.html#menu">Menu</a>
+          </li>
+
+          <li>
+            <a href="http://localhost/e-learning/index.html#kontakt"
+              >Kontakti</a
+            >
+          </li>
+          <li><a href="login.php">Log out</a></li>
+        </ul>
+      </header>
+
+      <div class="mat">
+        <p>Mbledhje-Zbritje-Shumezim-Pjestim</p>
+      </div>
+
+      <div class="veprimet">
+        <div class="mlogo"><img src="img/mmlogo.png" /></div>
+        <button class="show-modal" id="btnmodal">Info</button>
+        <div class="saktesia">
+          <p class="Saktesia">
+            🥇 Saktesia : <span class="vlrp" id="p"></span>%
+          </p>
+        </div>
+        <button class="reset" id="resets">Reset</button>
+        <ul>
+          <li class="veprim m">
+            <p class="titulli">Mbledhje</p>
+            <div class="numrat">
+              <input type="text" class="nr1" id="n1" />
+              <p class="operatori">+</p>
+              <input type="text" class="nr2" id="n2" />
+            </div>
+            <input type="text" class="rezultati" />
+
+            <button class="btnm m" id="bm">Provo</button>
+          </li>
+          <li class="veprim z">
+            <p class="titulli" id="titulliz">Zbritje</p>
+            <div class="numrat">
+              <input type="text" class="nr1 z" id="nr1z" />
+              <p class="operatori">-</p>
+              <input type="text" class="nr2 z" id="nr2z" />
+            </div>
+            <input type="text" class="rezultati m" id="rezultatiz" />
+            <button class="btnm z" id="bz">Provo</button>
+          </li>
+        </ul>
+
+        <ul>
+          <li class="veprim sh">
+            <p class="titulli" id="titullish">Shumezimi</p>
+            <div class="numrat">
+              <input type="number" class="nr1 sh" id="nr1sh" />
+              <p class="operatori">*</p>
+              <input type="text" class="nr2 sh" id="nr2sh" />
+            </div>
+            <input type="text" class="rezultati sh" id="rezultatish" />
+
+            <button class="btnm sh" id="bsh">Provo</button>
+          </li>
+          <li class="veprim p">
+            <p class="titulli" id="titullip">Pjestimi</p>
+            <div class="numrat">
+              <input type="text" class="nr1 p" id="nr1p" />
+              <p class="operatori">/</p>
+              <input type="text" class="nr2 p" id="nr2p" />
+            </div>
+            <input type="text" class="rezultati p" id="rezultatip" />
+            <button class="btnm p" id="bp">Provo</button>
+          </li>
+        </ul>
+      </div>
+      <script type="text/javascript" src="aritmetika.js"></script>
+    </section>
+  </body>
+</html>
